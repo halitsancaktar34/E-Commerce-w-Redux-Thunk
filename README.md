@@ -8,6 +8,7 @@
         <li>Developed using the React library.</li>
         <li>Redux is used for managing the application state throughout.</li>
         <li>Redux Thunk is implemented to handle asynchronous operations and manage data flow.</li>
+        <li>Integrated Bootstrap for responsive and efficient styling across the application.</li>
         <li>Full responsive.</li>
         <li>Different animations are used.</li>
 </ul>
