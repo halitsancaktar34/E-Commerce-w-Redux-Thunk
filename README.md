@@ -1,8 +1,16 @@
-# React + Vite
+<h1>E-COMMERCE</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p>This project includes a web application for e-commerce built using React, Redux, and Redux Thunk. Users can view various products, add them to their carts, proceed with purchases.</p>
 
-Currently, two official plugins are available:
+<h2>Features</h2>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<ul>
+        <li>Developed using the React library.</li>
+        <li>Redux is used for managing the application state throughout.</li>
+        <li>Redux Thunk is implemented to handle asynchronous operations and manage data flow.</li>
+        <li>Integrated Bootstrap for responsive and efficient styling across the application.</li>
+        <li>Full responsive.</li>
+        <li>Different animations are used.</li>
+</ul>
+
+<h2>Screen Gif</h2>
