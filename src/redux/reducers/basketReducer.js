@@ -23,16 +23,26 @@ const basketReducer = (state = initialState, { type, payload }) => {
         case ActionTypes.UPDATE_ITEM:
             const newBasket = state.basket.map((item) => {
                 if (item.id === payload) {
-                    return{...item, adet: item.adet + 1}
+                    return { ...item, adet: item.adet + 1 }
                 } else {
                     return item
                 }
             })
             return { ...state, basket: newBasket };
 
+        case ActionTypes.REDUCE_ITEM:
+            const newwBasket = state.basket.map((item) => {
+                if (item.id === payload) {
+                    return { ...item, adet: item.adet - 1 }
+                } else {
+                    return item
+                }
+            })
+            return { ...state, basket: newwBasket };
+
         case ActionTypes.REMOVE_ITEM:
             const filtred = state.basket.filter((i) => i.id !== payload)
-            return{...state, basket: filtred}
+            return { ...state, basket: filtred }
 
         default:
             return state;

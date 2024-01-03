@@ -8,4 +8,5 @@ export const ActionTypes= {
     ADD_TO_BASKET: "ADD_TO_BASKET",
     UPDATE_ITEM: "UPDATE_ITEM",
     REMOVE_ITEM: "REMOVE_ITEM",
+    REDUCE_ITEM: "REDUCE_ITEM"
 }

@@ -1,5 +1,5 @@
 import { useDispatch } from "react-redux";
-import { removeItem, updateItem } from "../redux/actions/basketActions";
+import { reduceItem, removeItem, updateItem } from "../redux/actions/basketActions";
 import { ActionTypes } from "../redux/actionTypes";
 
 const BasketItem = ({ item }) => {
@@ -23,6 +23,13 @@ const BasketItem = ({ item }) => {
 
             <div className="d-flex align-items-center gap-2">
                 <h6>Miktar: {item.adet}</h6>
+
+                <button
+                    onClick={() => dispatch(reduceItem(item))}
+                    className="btn btn-sm btn-primary"
+                >
+                    -
+                </button>
 
                 <button
                     onClick={() => dispatch(updateItem(item))}

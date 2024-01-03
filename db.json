@@ -183,20 +183,20 @@
   ],
   "basket": [
     {
-      "id": 2,
-      "baslik": "Dizüstü Bilgisayar",
-      "marka": "ABC",
-      "model": "B2",
-      "fiyat": 3000,
-      "stokAdedi": 30,
-      "renk": "Gümüş",
+      "id": 4,
+      "baslik": "Akıllı Saat",
+      "marka": "GHI",
+      "model": "D4",
+      "fiyat": 500,
+      "stokAdedi": 20,
+      "renk": "Metal Gri",
       "ozellikler": [
-        "Intel Core i7 işlemci",
-        "16 GB RAM",
-        "512 GB SSD"
+        "GPS takibi",
+        "Kalp atış hızı sensörü",
+        "Su geçirmez"
       ],
-      "resim": "https://picsum.photos/202",
-      "adet": 3
+      "resim": "https://picsum.photos/204",
+      "adet": 1
     }
   ]
 }

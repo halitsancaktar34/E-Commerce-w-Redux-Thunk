@@ -41,6 +41,12 @@ export const updateItem = (product) => (dispatch) => {
     .then(() => dispatch({type: ActionTypes.UPDATE_ITEM, payload: product.id}))
 };
 
+export const reduceItem = (product) => (dispatch) => {
+    axios
+    .patch(`/basket/${product.id}`, {adet: product.adet - 1})
+    .then(() => dispatch({type: ActionTypes.REDUCE_ITEM, payload: product.id}))
+};
+
 export const removeItem = (delete_id) => (dispatch) => {
     axios
     .delete(`/basket/${delete_id}`)
